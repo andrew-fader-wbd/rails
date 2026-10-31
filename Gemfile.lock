@@ -59,7 +59,7 @@ PATH
       activejob (= 8.1.4)
       activerecord (= 8.1.4)
       activesupport (= 8.1.4)
-      marcel (~> 1.0)
+      marcel (>= 1.0, < 3)
     activesupport (8.1.4)
       base64
       bigdecimal
@@ -330,7 +330,7 @@ GEM
       net-imap
       net-pop
       net-smtp
-    marcel (1.1.1)
+    marcel (2.1.0)
     matrix (0.4.3)
     mdl (0.15.0)
       kramdown (~> 2.3)
@@ -765,4 +765,4 @@ DEPENDENCIES
   websocket-client-simple
 
 BUNDLED WITH
-   2.7.2
+  4.1.0.beta2
